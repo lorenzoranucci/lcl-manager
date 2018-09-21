@@ -1,11 +1,11 @@
 {
   "name": "lcl-manager",
   "version": "1.0.0",
-  "description": "An LCL Manager for AEM",
+  "description": "LCL Manager for AEM",
   "author": "Lorenzo Franco Ranucci <lorenzoranucci.com>",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node --inspect=0.0.0.0:9222 server.js"
   },
   "dependencies": {
     "express": "^4.16.3"
